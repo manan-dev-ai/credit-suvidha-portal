@@ -34,14 +34,14 @@ credit-suvidha-portal/
 💻 Local Setup Instructions
 1. Clone the repository:
 
-Bash
+
 git clone [https://github.com/manan-dev-ai/credit-suvidha-portal.git](https://github.com/manan-dev-ai/credit-suvidha-portal.git)
 cd credit-suvidha-portal
 
 2. Install dependencies:
 This project uses uv for fast dependency management. If you don't have it installed, run pip install uv first.
 
-Bash
+
 uv sync
 (Alternatively, you can install via pip install -r requirements.txt if you export your dependencies).
 
@@ -51,14 +51,15 @@ Create a .env file in the root directory and add your necessary API keys (e.g., 
 4. Run the Application:
 To start the main web server:
 
-Bash
+
 python main.py
 To run the WhatsApp bot service independently (if separated):
 
-Bash
+
 python whatsapp_bot.py
 🛡️ Security & Privacy
 This application handles sensitive financial and user data. Please ensure that all API keys, webhook secrets, and .env files are added to your .gitignore and never committed to the public repository.
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
